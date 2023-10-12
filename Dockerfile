@@ -1,4 +1,4 @@
-FROM node:20-bullseye-slim
+FROM node:slim
 COPY . /starkiller
 WORKDIR /starkiller
 RUN npm install
