@@ -1,5 +1,5 @@
 FROM node:20-bullseye-slim
-COPY ./ /starkiller
+COPY . /starkiller
 WORKDIR /starkiller
 RUN npm install
 RUN yarn build
