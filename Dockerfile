@@ -1,4 +1,4 @@
-FROM node:slim
+FROM node:bookworm-slim
 COPY . /starkiller
 WORKDIR /starkiller
 RUN npm install
